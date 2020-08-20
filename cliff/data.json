@@ -1,6 +1,0 @@
-{
-    "type": "FeatureCollection",
-    "features": [
-        {"type": "Feature", "id": 1, "geometry": {"type": "Point", "coordinates": [56.7599972909026,60.80219850456276]}, "properties": {"balloonContentHeader": "", "balloonContentBody": "", "balloonContentFooter": "", "clusterCaption": "", "hintContent": ""}}
-    ]
-}
