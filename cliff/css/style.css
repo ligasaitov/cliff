@@ -1312,7 +1312,33 @@ textarea.input {
   top: 0px;
   right: 0px;
   cursor: pointer;
-  background: url("../img/icons/close.png") 0 0 no-repeat;
+  z-index: 50;
+}
+
+.popup-close:before {
+  content: '';
+  width: 50%;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.popup-close:after {
+  content: '';
+  width: 50%;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .popup-video .popup-close {
@@ -3921,8 +3947,6 @@ textarea.input {
 .webp .check.active:before{ background: url(../img/icons/check.webp) center no-repeat; }
 
 .webp .option.active:before{ background: url(../img/icons/option.webp) center no-repeat; }
-
-.webp .popup-close{ background: url(../img/icons/close.webp) 0 0 no-repeat; }
 
 .webp .models_count_num:before{ background-image: url(../img/leaf-1.webp); }
 
